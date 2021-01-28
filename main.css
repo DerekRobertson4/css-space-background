@@ -1,0 +1,113 @@
+html,body {
+  background-color: black;
+  height: 100vh;
+  font-size: 10px;
+}
+
+div {
+  position: absolute;
+}
+
+.planet {
+  border-radius: 50%;
+}
+
+#pluto {
+  background: #eeeded;
+  width: .5rem;
+  height: .5rem;
+  top: 7vh;
+  left: 7vw;
+}
+
+#neptune {
+  background: #5289fa;
+  width: 12rem;
+  height: 12rem;
+  top: 15vh;
+  left: 20vw;
+}
+
+#uranus {
+  background: #c3e9ec;
+  width: 12rem;
+  height: 12rem;
+  top: 35vh;
+  left: 35vw;
+}
+
+#saturn {
+  background: #e2c07d;
+  width: 26.25rem;
+  height: 26.25rem;
+  top: 47vh;
+  left: 50vw;
+}
+
+#jupiter {
+  background: #c38c47;
+  width: 30rem;
+  height: 30rem;
+  top: 54vh;
+  left: 61vw;
+}
+
+#mars {
+  background: #e1805e;
+  width: 1.55rem;
+  height: 1.55rem;
+  top: 62vh;
+  left: 69vw;
+}
+
+#earth {
+  background: #e2c07d;
+  width: 3rem;
+  height: 3rem;
+  top: 63vh;
+  left: 70vw;
+}
+
+#venus {
+  background: #e2c07d;
+  width: 2.9rem;
+  height: 2.9rem;
+  top: 64vh;
+  left: 71vw;
+}
+
+#mercury {
+  background: #a7a7a7;
+  width: 1rem;
+  height: 1rem;
+  top: 65vh;
+  left: 72vw;
+}
+
+#sun {
+  background: #ff7125;
+  width: 1200px;
+  height: 1200px;
+  top: 55vh;
+  left: 73vw;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 1px #fff, 0 0 4px #fff, 0 0 60px rgba(255, 119, 8, 0.692),
+      0 0 120px rgba(255, 119, 8, 0.692), 0 0 200px rgba(247, 71, 18, 0.692);
+    /*
+    inset 0 0 0 1px #EFEFEF,
+    inset 0 0 10px 5px #fadd72;
+    */
+  }
+  to {
+    box-shadow: 0 0 10px #fff, 0 0 60px #ff1e16cc, 0 0 120px #ff169ecc, 0 0 200px #ff7f16cc;
+    /*
+    inset 0 0 0 1px #EFEFEF,
+    inset 0 0 7px 6px #d816ffcc;
+    */
+  }
+}
+
